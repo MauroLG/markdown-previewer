@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import marked from 'marked';
+/*import parse from 'html-react-parser';*/
+import DOMPurify from 'dompurify';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//Set options for marked
+marked.setOptions({
+    breaks: true,
+    gmf: true,
+})
+
+class App extends React.Component {
+constructor(props){
+    super(props);
+    this.state = {
+        input: '',
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+}
+
+handleChange(event){
+    this.setState({
+        input: event.target.value,
+    });
+}
+
+    render(){
+        return (
+            <div className="App">
+                <textarea className="textArea" id="editor" value={this.state.input} onChange={this.handleChange}></textarea>
+                <div id="preview" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(marked(this.state.input))}} />
+            </div>
+        );
+    }
 }
 
 export default App;
