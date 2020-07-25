@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/markdown-previewer/static/css/main.dce571a4.chunk.css",
-    "main.js": "/markdown-previewer/static/js/main.a977c139.chunk.js",
-    "main.js.map": "/markdown-previewer/static/js/main.a977c139.chunk.js.map",
-    "runtime-main.js": "/markdown-previewer/static/js/runtime-main.4fd0b226.js",
-    "runtime-main.js.map": "/markdown-previewer/static/js/runtime-main.4fd0b226.js.map",
-    "static/js/2.663cd0f5.chunk.js": "/markdown-previewer/static/js/2.663cd0f5.chunk.js",
-    "static/js/2.663cd0f5.chunk.js.map": "/markdown-previewer/static/js/2.663cd0f5.chunk.js.map",
-    "index.html": "/markdown-previewer/index.html",
-    "precache-manifest.4540c141eae0105ef2da957e1fc8d4ec.js": "/markdown-previewer/precache-manifest.4540c141eae0105ef2da957e1fc8d4ec.js",
-    "service-worker.js": "/markdown-previewer/service-worker.js",
-    "static/css/main.dce571a4.chunk.css.map": "/markdown-previewer/static/css/main.dce571a4.chunk.css.map",
-    "static/js/2.663cd0f5.chunk.js.LICENSE.txt": "/markdown-previewer/static/js/2.663cd0f5.chunk.js.LICENSE.txt"
+    "main.css": "/maurolg/markdown-previewer/static/css/main.4bebfcbb.chunk.css",
+    "main.js": "/maurolg/markdown-previewer/static/js/main.41900353.chunk.js",
+    "main.js.map": "/maurolg/markdown-previewer/static/js/main.41900353.chunk.js.map",
+    "runtime-main.js": "/maurolg/markdown-previewer/static/js/runtime-main.d52d78b2.js",
+    "runtime-main.js.map": "/maurolg/markdown-previewer/static/js/runtime-main.d52d78b2.js.map",
+    "static/js/2.663cd0f5.chunk.js": "/maurolg/markdown-previewer/static/js/2.663cd0f5.chunk.js",
+    "static/js/2.663cd0f5.chunk.js.map": "/maurolg/markdown-previewer/static/js/2.663cd0f5.chunk.js.map",
+    "index.html": "/maurolg/markdown-previewer/index.html",
+    "precache-manifest.dacb94c696bf81cfd4217fd2ecf22298.js": "/maurolg/markdown-previewer/precache-manifest.dacb94c696bf81cfd4217fd2ecf22298.js",
+    "service-worker.js": "/maurolg/markdown-previewer/service-worker.js",
+    "static/css/main.4bebfcbb.chunk.css.map": "/maurolg/markdown-previewer/static/css/main.4bebfcbb.chunk.css.map",
+    "static/js/2.663cd0f5.chunk.js.LICENSE.txt": "/maurolg/markdown-previewer/static/js/2.663cd0f5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fd0b226.js",
+    "static/js/runtime-main.d52d78b2.js",
     "static/js/2.663cd0f5.chunk.js",
-    "static/css/main.dce571a4.chunk.css",
-    "static/js/main.a977c139.chunk.js"
+    "static/css/main.4bebfcbb.chunk.css",
+    "static/js/main.41900353.chunk.js"
   ]
 }
