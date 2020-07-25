@@ -49,7 +49,6 @@ body {
 #editor {
   text-align: left;
   font-family: 'Inconsolata', monospace;
-  font-weight: bold;
   background-color: #000;
   color: #CCC;
   box-shadow: 1px 1px 10px 2px #000;
