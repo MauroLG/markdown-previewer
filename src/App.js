@@ -54,10 +54,10 @@ constructor(props){
     this.state = {
         input: placeholder,
     };
-
     this.handleChange = this.handleChange.bind(this);
 }
 
+//Textarea input handler
 handleChange(event){
     this.setState({
         input: event.target.value,
